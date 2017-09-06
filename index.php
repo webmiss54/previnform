@@ -10,6 +10,9 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 	<title></title>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -27,17 +30,44 @@
     <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
+      <!--<a class="navbar-brand" href="#">WebSiteName</a>-->
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
+      <li class="active"><a href="#">Accueil</a></li>
       <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Qui sommes nous ?
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">Page 1-1</a></li>
-          <li><a href="#">Page 1-2</a></li>
-          <li><a href="#">Page 1-3</a></li>
+          <li><a href="#">Historique de l'entreprise</a></li>
+          <li><a href="#">Présentation de l'équipe adminsitrative</a></li>
+          <li><a href="#">Agréments et habilitations</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Nos formations
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Planning Formation</a></li>
+          <li><a href="#">Présentation de l'équipe adminsitrative</a></li>
+          <li><a href="#">Agréments et habilitations</a></li>
+        </ul>
+      </li> 
+      <li><a href="#">Planning et documentation</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Notre savoir-faire
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Planning Formation</a></li>
+          <li><a href="#">Présentation de l'équipe adminsitrative</a></li>
+          <li><a href="#">Agréments et habilitations</a></li>
+        </ul>
+      </li><li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contactez nous
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Plan d'accès/a></li>
+          <li><a href="#">demande de documentation</a></li>
+          <li><a href="#">Agréments et habilitations</a></li>
         </ul>
       </li>
       <li><a href="#">Page 2</a></li>
@@ -56,8 +86,6 @@
 
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+
 </body>
 </html>
